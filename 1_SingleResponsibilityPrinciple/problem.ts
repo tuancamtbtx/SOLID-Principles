@@ -1,4 +1,6 @@
-class User {
+class UserBad {
+  private name: string
+  private email: string
   constructor (name, email) {
     this.name = name
     this.email = email

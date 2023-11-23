@@ -13,18 +13,17 @@ When implemented correctly, this makes your code more extensible, logical, maint
 To understand SOLID principles, you must have a good understanding of how interfaces are used.
 
 ### 1. Single Responsibility Principle
-`The Single Responsibility Principle requires that each class should have a singular, clearly defined purpose.
-`
+`The Single Responsibility Principle (SRP) is a design principle that states that a class or module should have only one reason to change. In other words, a class or module should have only one responsibility, and that responsibility should be encapsulated within that class or module.`
+
 ### 2. Open-Closed Principle
-`Software entities (classes, modules, functions, etc.) must be open for extension but closed for modification.
-`
+`The Open-Closed Principle (OCP) is a design principle that states that software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. In other words, we should be able to add new functionality to a system without changing its existing code.`
+
 ### 3. Liskov Substitution Principle
-`The main idea behind the Liskov Substitution Principle is that for any class, the client should be able to use any subclass of the base class without noticing the difference between them.`
+`The Liskov Substitution Principle (LSP) is a design principle that states that objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program. In other words, a subclass should be able to replace its superclass in any context without changing the behavior of the program.`
 
 
 ### 4. Interface Segregation Principle
-`Clients should not depend on interfaces they do not use. You shouldn’t force a client to implement an interface that it does not use.
-`
+`The Interface Segregation Principle (ISP) is a design principle that states that no client should be forced to depend on methods it does not use. In other words, a class should not have to implement methods that it does not need, just because those methods are part of an interface. This principle helps to keep interfaces small and focused, making them easier to implement and maintain.`
+
 ### 5. Dependency Inversion Principle
-`Dependency should be on abstractions, not on specifics.
-`
+`The Dependency Inversion Principle (DIP) is a design principle that states that high-level modules should not depend on low-level modules, but both should depend on abstractions. In other words, we should depend on abstractions rather than concrete implementations.`

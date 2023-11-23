@@ -1,4 +1,6 @@
 class Discount {
+  customer: string
+  price: number
   constructor (customer, price) {
     this.price = price
     this.customer = customer

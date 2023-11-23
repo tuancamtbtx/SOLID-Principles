@@ -1,4 +1,6 @@
-class User {
+class UserGood {
+  private name: string
+  private email: string
   constructor (name, email) {
     this.name = name
     this.email = email
@@ -13,9 +15,9 @@ class User {
   }
 }
 
-class Storage {
+class StorageGood {
   // save user to database
-  save (user) {
+  save (user: UserGood) {
     console.log(`Saving ${user.getName()} to the database`)
   }
 }

@@ -1,4 +1,6 @@
-class Discount {
+class DiscountProblem {
+  price: number
+  customer: string
   constructor (customer, price) {
     this.price = price
     this.customer = customer

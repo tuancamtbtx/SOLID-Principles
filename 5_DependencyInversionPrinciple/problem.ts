@@ -1,17 +1,17 @@
-class MailService {
+class MailServiceTrue {
   send () {
     console.log('Sending a mail to user')
     // send email
   }
 }
-class SmsService {
+class SmsServiceTrue {
   send () {
     console.log('Sending a sms message to user')
     // send email
   }
 }
 
-class AlertManager {
+class AlertManagerTrue {
   notifyMail () {
     const mailService = new MailService()
     mailService.send()
@@ -21,6 +21,6 @@ class AlertManager {
     smsService.send()
   }
 }
-const alertManager = new AlertManager()
-alertManager.notifyMail()
-alertManager.notifySms()
+const alertManagerBad = new AlertManagerTrue()
+alertManagerBad.notifyMail()
+alertManagerBad.notifySms()
