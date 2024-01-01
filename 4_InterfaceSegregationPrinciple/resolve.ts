@@ -1,16 +1,16 @@
-interface IWalker {
+interface IAnimalCanWalker {
     walk(): void;
 }
-interface ISwimmer {
+interface IAnimalCanSwimmer {
     swim(): void;
 }
 
-class Dog implements IWalker {
+class WalkAnimal implements IAnimalCanWalker {
     walk(): void {
         console.log('Walking...');
     }
 }
-class Fish implements ISwimmer {
+class SwimAnimal implements IAnimalCanSwimmer {
     swim(): void {
         console.log('Swimming...');
     }
