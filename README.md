@@ -1,8 +1,11 @@
 # SOLID Principles With Example:
 ![Javascript](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
-- Javascript
-
+- Single responsibility priciple (SRP)
+- Open/Closed principle (OCP)
+- Liskov substitution principe (LSP)
+- Interface segregation principle (ISP)
+- Dependency inversion principle (DIP)
 ## SOLID
 `SOLID` is an acronym for a set of design principles created for developing software using object-oriented languages.
 
