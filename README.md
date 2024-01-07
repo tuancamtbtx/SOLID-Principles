@@ -7,6 +7,7 @@
 - Interface segregation principle (ISP)
 - Dependency inversion principle (DIP)
 ## SOLID
+
 `SOLID` is an acronym for a set of design principles created for developing software using object-oriented languages.
 
 The SOLID principles are designed to encourage the creation of code that is simpler, more dependable, and easier to enhance. Each letter in SOLID stands for one design principle.
