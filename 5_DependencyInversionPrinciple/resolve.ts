@@ -13,13 +13,11 @@ class SmsService implements NotificationService {
     console.log('Sending a sms message to user')
   }
 }
-
 class AlertManager {
   notificationService: NotificationService
   constructor (notificationService: NotificationService) {
     this.notificationService = notificationService
   }
-
   notify () {
     this.notificationService.send()
   }
